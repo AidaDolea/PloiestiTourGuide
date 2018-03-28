@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_paddings">16dp</dimen>
+    <dimen name="images_width">230dp</dimen>
+    <dimen name="images_height">200dp</dimen>
+    <dimen name="description_paddings">16dp</dimen>
+    <dimen name="address_padding_bottom">16dp</dimen>
+    <dimen name="address_padding_start">16dp</dimen>
+</resources>

@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/PloiestiTourGuideAppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="tabBackground">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="PloiestiTourGuideAppBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/tab_text_color</item>
+    </style>
+
+    <style name="image_style">
+
+        <item name="android:layout_width">@dimen/images_width</item>
+        <item name="android:layout_height">@dimen/images_height</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="text_style">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="text_style.title">
+
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/title_paddings</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_style.description">
+
+        <item name="android:padding">@dimen/title_paddings</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+
+    </style>
+
+    <style name="text_style.address">
+
+        <item name="android:paddingBottom">@dimen/address_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/address_padding_start</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+</resources>

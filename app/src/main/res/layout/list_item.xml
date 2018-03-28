@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/attraction_title_item"
+        style="@style/text_style.title"
+        android:text="@string/text_title" />
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/image_style"
+        android:contentDescription="@string/image_content_description" />
+
+
+    <TextView
+        android:id="@+id/attraction_description_item"
+        style="@style/text_style.description"
+        android:text="@string/text_description"
+
+        />
+
+    <TextView
+        android:id="@+id/attraction_address_item"
+        style="@style/text_style.address"
+        android:text="@string/text_address"
+
+        />
+
+</LinearLayout>
