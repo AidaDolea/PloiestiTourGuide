@@ -76,4 +76,8 @@
     <string name="central_hotel">Central Hotel</string>
     <string name="central_hotel_description">The straightforward rooms offer free Wi-Fi, flat-screen TVs and minibars. Upgraded rooms and suites add separate living areas, and/or tea and coffeemakers. Apartments have kitchenettes. Room service is available.</string>
     <string name="central_hotel_address">Address: Republicii Boulevard 1</string>
+    <string name="hotel_tab">Hotels</string>
+    <string name="food_tab">Food</string>
+    <string name="museums_tab">Museums</string>
+    <string name="malls_tab">Malls</string>
 </resources>
